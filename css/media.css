@@ -1,0 +1,43 @@
+@media  screen and (max-width: 768px) {
+    .sale {
+        margin-bottom: 100px;
+    }
+
+    .specification_img {
+        display: none;
+    }
+
+    .first_slide, .second_slide, .third_slide, .fourth_slide, .five_slide {
+        height: 530px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .jf_cont {
+        margin-bottom: 0;
+    }
+
+    .rev_ava {
+        
+    }
+
+    .rev_text {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .sale {
+        margin-bottom: 150px;
+    }
+
+    form input {
+        width: 80%;
+    }
+
+    .first_slide, .second_slide, .third_slide, .fourth_slide, .five_slide {
+        height: 375px;
+    }
+}

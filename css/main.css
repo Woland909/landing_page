@@ -1,0 +1,290 @@
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+	margin: 40px;
+	text-align: center;
+}
+
+.jf {
+	justify-content: space-around;
+}
+
+/*------------------sale-----------*/
+.sale {
+	margin-bottom: 50px;
+}
+/*block1*/
+.sale_text {
+	color: orangered;
+	text-align: right;
+	font: 50px bold;
+}
+
+.sale_img {
+	background: url(../images/logo.jpg) no-repeat;
+	background-size: contain;
+	height: 500px;
+	
+}
+
+.name_text {
+	color: darkorange;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-right: 140px;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+/*block2*/
+.sale_price {
+	display: flex;
+	justify-content: space-between;
+}
+.stock {
+	display: flex;
+	text-align: center;
+	width: 118px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px;
+	font-size: 25px;
+	background-color: orange;
+}
+
+.stock p {
+	margin: auto;
+}
+
+.sale_price_text {
+	display: inline-block;
+	font-size: 35px;
+}
+
+.sale_price_text_wrap {
+	text-decoration: line-through;
+}
+
+.sale_price__text_wrap2 {
+	font-size: 40px;
+	color: darkorange;
+}
+/*-----------sale-time--------*/
+
+.sale_time {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.sale_time_text {
+	font-size: 20px;
+}
+
+.sale_time_wrap {
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+
+.sale_time_wrap p {
+	margin-bottom: 0;
+	width: 55px;
+}
+
+.sale_time_hour, .sale_time_minutes, .sale_time_seconds {
+	border:1px solid;
+	border-radius: 7px;
+	background-color: orange;
+}
+
+
+.sale_time_minutes, .sale_time_seconds {
+	margin-left: 15px;
+}
+
+.sale_time_name {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.sale_btn {
+	text-align: center;
+	color: orangered;
+	font-size: 1.5rem;
+}
+
+.sale_btn:hover {
+	color:orangered;
+}
+
+/*------------specifications------------*/
+
+.specification_img {
+	border-radius: 65px;
+	background: url(../images/specifications.png) no-repeat;
+	background-size: cover;
+}
+
+.specifications_title {
+	font-size: 17px;
+}
+
+/*------------------info--------------*/
+
+.information {
+	text-align: center;
+}
+
+.jf_cont {
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+
+.border_none {
+	border: none;
+	border-radius: 7px;
+	box-shadow: 0 0 30px;
+}
+
+.carousel-inner {
+	border-radius: 7px;
+}
+
+.carousel-indicators li {
+	background-color: orange;
+}
+
+.carousel-indicators .active {
+	background-color: orangered;
+}
+
+.first_slide,.second_slide,.third_slide,.fourth_slide,.five_slide {
+	height: 550px;
+}
+
+.first_slide {
+	background: url(../images/slide6.png) no-repeat;
+	background-size: contain;
+}
+
+.second_slide {
+	background: url(../images/slide1.png) no-repeat;
+	background-size: contain;
+}
+
+.third_slide {
+	background: url(../images/slide3.png) no-repeat;
+	background-size: contain;
+}
+
+.fourth_slide {
+	background: url(../images/slide4.png) no-repeat;
+	background-size: contain;
+}
+
+.five_slide {
+	background: url(../images/slide7.png) no-repeat;
+	background-size: contain;
+}
+
+/*-----commit--------*/
+
+.reviews {
+	text-align: center;
+}
+
+.rev_text {
+	text-align: left;
+}
+
+.commit {
+	border-radius: 10px;
+    box-shadow: 0 0 2px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.rev_img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.paxa {
+	background: url(../images/paxa.png) no-repeat;
+	background-size: contain;
+}
+
+.toxa {
+	background: url(../images/toxa.jpg) no-repeat;
+	background-size: contain;
+}
+
+.no_foto {
+	background: url(../images/no_photo.jpg) no-repeat;
+	background-size: contain;
+}
+
+.vlad {
+	background: url(../images/vlad.jpg) no-repeat;
+	background-size: contain;
+}
+
+/*---------------delivery-------*/
+
+.delivery_img {
+	border-radius: 65px;
+	background: url(../images/delivery-car.jpg) no-repeat;
+	background-size: contain;
+}
+
+.delivery_text span {
+	font-size: 20px;
+	color: orangered;
+}
+
+/*---------request-----------*/
+.request {
+	padding-bottom: 50px;
+}
+
+.request_text {
+	text-align: center;
+}
+
+.request_text span {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+
+.request_form {
+	text-align: center;
+}
+
+.form_name, .form_phone {
+	margin-bottom: 20px;
+}
+
+form input {
+	border-color: darkorange;
+	border-radius: 10px;
+	height: 45px;
+	width: 30%;
+	padding: 0 10px;
+}
+
+form input:hover {
+	border-color: orangered;
+}
+
+form input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {color:#000;}
+::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+:-moz-placeholder           {color:#000;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#000;}
