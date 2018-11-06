@@ -29,8 +29,20 @@
 }
 
 @media  screen and (max-width: 576px) {
+    .name_text {
+        margin-right: 0;
+        font-size: 70px;
+    }
     .sale {
         margin-bottom: 150px;
+    }
+
+    .sale_text {
+        font-size: 40px;
+    }
+
+    .sale_time_wrap {
+        margin-bottom: 20px;
     }
 
     form input {
