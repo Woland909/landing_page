@@ -19,6 +19,9 @@
         margin-bottom: 0;
     }
 
+    form input {
+        width: 80%;
+    }
 
     .rev_text {
         text-align: center;
