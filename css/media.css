@@ -1,3 +1,9 @@
+@media  screen and (max-width: 992px) {
+    form input {
+        width: 80%;
+    }
+}
+
 @media  screen and (max-width: 768px) {
     .sale {
         margin-bottom: 100px;
